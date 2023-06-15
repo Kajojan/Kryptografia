@@ -120,7 +120,6 @@ def verify():
         with open("verify.txt", "w") as f:
             f.write("True")
         print("Verified: True")
-
     else:
         with open("verify.txt", "w") as f:
             f.write("False")
